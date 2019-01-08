@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 89px;
+}
+
+.logobg_img {
+    position: absolute;
+    left: 293px;
+    width: 150px;
+    height: 120px;
+    z-index: 2;
+}
+
+.search_div {
+    top: 30px;
+    width: 356px;
+    position: absolute;
+    left: 542px;
+    height: 33px;
+    overflow: hidden;
+    border: 1px solid
+}
+
+.search_div input {
+    position: relative;
+    left: 0;
+    height: 100%;
+    width: 288px;
+}
+
+.search_div button {
+    width: 64px;
+    float: right;
+    border: 0px;
+    height: 100%;
+    text-align: center;
+    background: #666;
+    color: white;
+}
+
+.ewm_img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 975px;
+    top: 15px;
+}
+
+.navigation_div {
+    width: 100%;
+    height: 35px;
+    top: 89px;
+    position: absolute;
+    overflow: hidden;
+    background: #EDEDED;
+    border-bottom: 1px solid;
+}
+
+.same {
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 0.8em;
+}
+
+.product_index {
+    left: 443px;
+}
+
+.info {
+    left: 543px;
+}
+
+.contact {
+    left: 643px;
+}
+
+.content {
+    background: #EDEDED;
+    width: 100%;
+    height: 700px;
+
+}
+
+.newleft_img {
+    width: 254px;
+
+    height: 116px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.content_left {
+    position: absolute;
+    top: 200px;
+    left: 295px;
+}
+.ul_div{
+    background: #FFF;
+    width: 254px;
+    position: relative;
+    top: 13px;
+    height: 257px;
+    overflow: hidden;
+}
+.ul_div ul {
+    background: #FFFFFF;
+    position: absolute;
+    top: 39px;
+    left: 40px;
+    width: 260px;
+    height: 188px;
+}
+
+.ul_div ul li{
+    height: 40px;
+    color: gray;
+    font-size: 0.75em;
+}
+.line{
+    height: 1px;
+    background: gray;
+    position: relative;
+    width: 213px;
+    left: 23px;
+    z-index: 2;
+}
+.line0{
+    top: 68px;
+
+}
+.line1{
+    top: 108px;
+}
+.line2{
+    top: 147px;
+}
+.line3{
+    top: 188px;
+}
+.line4{
+    top: 229px;
+}
+.content_right{
+    position: absolute;
+    width: 607px;
+    height: 500px;
+    background: white;
+    left: 567px;
+    top: 200px;
+}
+.content_right ul{
+    margin: 16px;
+    list-style: none;
+}
+
+.content_right ul li{
+    margin-bottom: 14px;
+    height: 129px;
+    border-bottom: 1px solid;
+}
+.img1{
+    height: 116px;
+}
+
+.text_div{
+    position: relative;
+    background: red;
+    width: 385px;
+    height: 116px;
+    float: right;
+    display: inline-block;
+}
+.span_title{
+    color: gray;
+    font-size: 0.9em;
+}
+.span_content {
+    height: 60px;
+    display: inline-block;
+    width: 200px;
+    width: 386px;
+    left: 10px;
+    word-break: break-all;
+    font-size: 0.8em;
+    color: #b5a7a7;
+}
+.span_date{
+    font-size: 0.8em;
+    color: #b5a7a7;
+}
