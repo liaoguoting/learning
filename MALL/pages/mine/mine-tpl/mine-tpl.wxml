@@ -1,7 +1,0 @@
-<template name='mineTpl'>
-  <view class='mine-tpl-container'>
-    <view class='mine-tpl-name'>{{title}}</view>
-    <view class='mine-tpl-arrow'>
-    </view>
-  </view>
-</template>
