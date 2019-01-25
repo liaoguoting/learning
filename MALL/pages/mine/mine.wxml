@@ -1,0 +1,66 @@
+<!--pages/mine/mine.wxml-->
+<import src='mine-tpl/mine-tpl.wxml' />
+<view class='mine-container-out'>
+
+  <view class='mine-container'>
+    <view class='mine-title-out'>
+
+      <view class='mine-title'>
+        <view class='title-img'>
+          <image src='http://lgting.oss-cn-beijing.aliyuncs.com/wx-img/head.jpg' />
+        </view>
+        <view class='tite-name'>一大口可爱</view>
+        <view class='mine-arrow'>
+        </view>
+      </view>
+
+    </view>
+    <!--收货地址 -->
+    <view class='mine-item'>
+      <block wx:for='{{address}}' wx:for-item='item'>
+
+        <view class='template-out' catchtap='{{item.tap}}'>
+          <view class='line'></view>
+          <template is='mineTpl' data="{{...item}}">
+          </template>
+        </view>
+      </block>
+    </view>
+
+    <!--账户与安全 -->
+    <view class='mine-item'>
+      <block wx:for='{{safe}}' wx:for-item='item'>
+        <view class='template-out' catchtap='{{item.tap}}'>
+
+          <template is='mineTpl' data="{{...item}}">
+          </template>
+        </view>
+      </block>
+    </view>
+
+    <!-- 地区设置 -->
+    <view class='mine-item'>
+      <block wx:for='{{setting}}' wx:for-item='item'>
+        <view class='template-out' catchtap='{{item.tap}}'>
+          <template is='mineTpl' data="{{...item}}">
+          </template>
+        </view>
+        <view class='line'></view>
+
+      </block>
+    </view>
+
+    <!-- 问题反馈 -->
+    <view class='mine-item'>
+      <block wx:for='{{ques}}' wx:for-item='item'>
+        <view class='template-out' catchtap='{{item.tap}}'>
+
+          <template is='mineTpl' data="{{...item}}">
+          </template>
+
+        </view>
+        <view class='line'></view>
+      </block>
+    </view>
+  </view>
+</view>

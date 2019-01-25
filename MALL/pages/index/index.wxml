@@ -1,0 +1,21 @@
+<import src='index-tpl/index-tpl.wxml' />
+<swiper autoplay='true' duration='1000' indicator-dots='true' interval='3000'>
+  <swiper-item class='group'>
+    <image src='http://lgting.oss-cn-beijing.aliyuncs.com/wx-img/post-1%40text.jpg' mode='aspectFill'></image>
+  </swiper-item>
+  <swiper-item class='group'>
+    <image src='http://lgting.oss-cn-beijing.aliyuncs.com/wx-img/post-2%40text.jpg' mode='aspectFill'></image>
+  </swiper-item>
+  <swiper-item class='group'>
+    <image src='http://lgting.oss-cn-beijing.aliyuncs.com/wx-img/post-3%40text.jpg' mode='aspectFill'></image>
+  </swiper-item>
+</swiper>
+
+<view class='indexTpl-out'>
+  <block wx:for='{{productList}}' wx:for-item='item'>
+    <view class='tpl-in' catchtap='turnDetail' data-pro-id='{{item.proId}}'>
+      <template is='indexTpl' data='{{...item}}'>
+      </template>
+    </view>
+  </block>
+</view>

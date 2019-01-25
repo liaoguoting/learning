@@ -1,0 +1,53 @@
+/* pages/mine/address-edit/address-edit.wxss */
+
+.address-edit-container-out {
+  position: fixed;
+  width:100%;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.address-edit-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #f2f2f2;
+}
+
+.edit-item {
+  height: 80rpx;
+  width: 100%;
+  font-size: 28rpx;
+  background: #fff;
+  border-bottom: 1px solid #f2f2f2;
+  display: flex;
+  align-items: center;
+}
+.edit-item input{
+  height: 50rpx;
+  width: 100%;
+  font-size: 28rpx;
+  line-height: 80rpx;
+  margin-left: 10px;
+}
+.edit-item-address{
+  margin-top: 20px;
+  text-indent: 10px;
+}
+.add{
+  width: 100%;
+  height: 100rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 30rpx;
+  background: orange;
+  position: fixed;
+  bottom: 0;
+  line-height: 100rpx;
+}
+.del-address{
+  color: red;
+}
