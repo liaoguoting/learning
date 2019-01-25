@@ -1,0 +1,114 @@
+@import 'cart-tpl/cart-tpl.wxss';
+
+.contaier-out {
+  position: fixed;
+  width: 100%;
+  bottom: 100rpx;
+  overflow: scroll;
+  top: 0;
+}
+
+.contaier {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 700px;
+}
+
+.cart-num {
+  width: 100%;
+  height: 20px;
+  font-size: 26rpx;
+  padding: 10px;
+  background: white;
+}
+
+.cartTpl-out {
+  background: #f2f2f2;
+  width: 100%;
+  height: auto;
+}
+
+.cart-footer-out {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100rpx;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  background: white;
+  overflow: hidden;
+}
+
+.cart-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.cart-all {
+  font-size: 30rpx;
+  color: gray;
+}
+
+.cart-left {
+  flex: 4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cart-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 5;
+}
+
+.cart-count {
+  font-size: 30rpx;
+  flex: 1;
+}
+
+.cart-last {
+  flex: 1;
+  font-size: 33rpx;
+  background: orange;
+  color: white;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 5px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.cart-txt1 {
+  color: red;
+}
+.del{
+  background: red;
+  z-index: 6;
+  text-align: center;
+  height: 300px;
+  line-height: 300rpx;
+  color: white;
+  width:180rpx; 
+  left: 200px;
+  position: absolute;
+}
+.template-del{
+width: 100%;
+
+    z-index: 5;
+
+    transition: left0.2s ease-in-out;
+
+    white-space:nowrap;
+
+    overflow:hidden;
+
+    text-overflow:ellipsis;
+}

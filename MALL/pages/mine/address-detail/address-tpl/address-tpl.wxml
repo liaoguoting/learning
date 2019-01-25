@@ -1,0 +1,13 @@
+<template name="addressTpl">
+  <view class='address-tpl-container'>
+    <view class='address-tpl-content'>
+      <view class='content-top'>
+        <view class='top-name'>{{name}}</view>
+        <view class='top-phone'>{{phone}}</view>
+      </view>
+      <view class='content-bottom'>{{address}}</view>
+    </view>
+    <view class='address-tpl-default' data-id="{{index}}" wx:if="{{importFlag}}">默认地址</view>
+    <view class='address-tpl-edit' catchtap='edit' data-id="{{index}}">编辑</view>
+  </view>
+</template>

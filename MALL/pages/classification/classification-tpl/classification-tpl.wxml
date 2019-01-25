@@ -1,0 +1,12 @@
+<template name='classificationTpl'>
+<view class='classif-container-out'>
+  <view class='classif-container'>
+    <view class='classif-img'>
+      <image src='{{imgUrl}}'></image>
+    </view>
+    <view class='classif-text'>
+      <text>{{productDetail}}</text>
+    </view>
+  </view>
+  </view>
+</template>
